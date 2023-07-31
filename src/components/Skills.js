@@ -50,23 +50,23 @@ const Skills = () => {
               </a>
             </motion.div>
 
-            <Skill name="C#" x="7vw" y="-3w"/> 
-            <Skill name="C++" x="-20vw" y="2vw"/>
-            <Skill name="Unity" x="20vw" y="6vw"/>
-            <Skill name="Unreal Engine" x="0vw" y="12vw"/> 
-            <Skill name="Git" x="-20vw" y="15vw"/> 
-            <Skill name="Java" x="15vw" y="-12vw"/> 
-            <Skill name=".Net" x="32vw" y="-5vw"/> 
-            {/* <Skill name="VueJS" x="0vw" y="-20vw"/>
-            <Skill name="Typescript" x="0vw" y="-18vw"/>
-            <Skill name="Javascript" x="0vw" y="-20vw"/>
-            <Skill name=".Net Core" x="-25vw" y="-15vw"/> 
-            <Skill name="NextJS" x="18vw" y="18vw"/>
-            <Skill name="NodeJS" x="18vw" y="16vw"/>
-            <Skill name="Docker" x="18vw" y="14vw"/>
-            <Skill name="Python" x="18vw" y="12vw"/>
-            <Skill name="Terraform" x="18vw" y="10vw"/>
-            <Skill name="Azure" x="18vw" y="8vw"/> */}
+            <Skill name="Unity" x="7vw" y="-5vw"/>
+            <Skill name="Unreal" x="-7vw" y="5vw"/>
+            <Skill name="C#" x="10vw" y="0vw"/>
+            <Skill name="C++" x="-10vw" y="0vw"/>
+            <Skill name="NodeJS" x="5vw" y="13vw"/>
+            <Skill name="Git" x="-20vw" y="3vw"/> 
+            <Skill name="Java" x="-14vw" y="-14vw"/> 
+            <Skill name=".Net" x="-4vw" y="-9vw"/> 
+            <Skill name="VueJS" x="15vw" y="-17vw"/>
+            <Skill name="Typescript" x="19vw" y="-5vw"/>
+            <Skill name="Javascript" x="0vw" y="-19vw"/>
+            <Skill name=".Net Core" x="6vw" y="-13vw"/> 
+            <Skill name="NextJS" x="-9vw" y="15vw"/>
+            <Skill name="Docker" x="-27vw" y="-9vw"/>
+            <Skill name="Python" x="24vw" y="12vw"/>
+            <Skill name="Terraform" x="30vw" y="0vw"/>
+            <Skill name="Azure" x="12vw" y="6vw"/>
 
         </div>
     </>
