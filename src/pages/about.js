@@ -44,23 +44,20 @@ const About = () => {
         <TransitionEffect />
         <main className='flex w-full flex-col items-center justify-center dark:text-colors-light'>
             <Layout className='pt-16'>
-                <AnimatedText text="Lorem ipsum dolor sit amet" className='mb-16 text-6xl lg:!text-5xl sm:!text-4xl xs:!text-3xl sm:mb-8'/>            
+                <AnimatedText text=" Qui suis-je ?" className='mb-16 text-6xl lg:!text-5xl sm:!text-4xl xs:!text-3xl sm:mb-8'/>            
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8 '> 
                     <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
-                        <h2 className='mb-4 text-lg font-bold uppercase text-colors-dark/75 dark:text-colors-light/75'>Biography</h2>
+                        <h2 className='mb-4 text-lg font-bold uppercase text-colors-dark/75 dark:text-colors-light/75'>Présentation</h2>
                         <p className='font-medium'>
-                            Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                            and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-                            new and innovative ways to bring my clients' visions to life.
+                            Salut 👋!  Je m'appelle Théo, j'ai 24 ans et cela fais maintenant 2 ans que je travaille en tant que développeur logiciel. 
+                            La programmation et celle des jeux en particuler a toujours été une grande passsion.
                         </p>
                         <p className='my-4 font-medium'>
-                            I believe that design is about more than just making things look pretty - it's about solving problems and 
-                            creating intuitive, enjoyable experiences for users. 
+                            Je me suis rapidement spécialisé dans le développement de logiciel mais aussi dans le domaine de l'IoT (Internet of Things) afin de pouvoir toucher à un maximum de technologies différentes.
+                            Ma grande curiosité me pousse à constament apprendre, pratiquer et maîtriser.
                         </p>
                         <p className='font-medium'>
-                            Whether I'm working on a website, mobile app, or 
-                            other digital product, I bring my commitment to design excellence and user-centered thinking to 
-                            every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                            Les jeux vidéos ont toujours fait partie de ma vie et c'est très naturellement que j'ai commencé à développer seul mes premiers prototypes, puis à rencontrer des personnes partegeant la même passion.
                         </p>
                     </div>
                     <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid
@@ -78,29 +75,29 @@ const About = () => {
 
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                <AnimatedNumbers value={50}/>
-                                +
+                                <AnimatedNumbers value={24}/>
+                                
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-colors-dark/75 dark:text-colors-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
-                                prototypes réalisé</h2>
+                            <h2 className='text-xl font-medium text-colors-dark/75 dark:text-colors-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
+                                ans</h2>
                         </div>
 
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                <AnimatedNumbers value={50}/>
+                                <AnimatedNumbers value={2}/>
                                 
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-colors-dark/75 dark:text-colors-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
+                            <h2 className='text-xl font-medium text-colors-dark/75 dark:text-colors-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
                                 années d'expérience</h2>
                         </div>
 
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                <AnimatedNumbers value={0}/>
-                                €
+                                <AnimatedNumbers value={5}/>
+                                +
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-colors-dark/75 dark:text-colors-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
-                                sur le compte</h2>
+                            <h2 className='text-xl font-medium text-colors-dark/75 dark:text-colors-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
+                                prototypes de jeu</h2>
                         </div>
                     </div> 
                 </div>

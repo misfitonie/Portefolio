@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import profilePic from "../../public/images/profile/v0.png"
+import Image from 'next/image'
 
 const Skill = ({name, x, y}) => {
     return(
@@ -31,27 +33,40 @@ const Skills = () => {
         md:bg-circularLightMd md:dark:bg-circularDarkMd
         sm:bg-circularLightSm sm:dark:bg-circularDarkSm
         '>
-            <motion.div className='flex items-center justify-center rounded-full font-semibold p-8 cursor-pointer lg:p-6 md:p-4 xs:text-xs xs:p-2
+            <motion.div className='flex items-center justify-center rounded-full font-semibold cursor-pointer lg:p-6 md:p-4 xs:text-xs xs:p-2
             shadow-colors-dark
-            bg-colors-dark
             text-colors-light
             dark:text-colors-dark
             dark:bg-colors-light'
             whileHover={{scale:1.05}}
             >
-              Web
+              <a href='/CV_FerreiraTheo.pdf' download={true}>
+                <Image 
+                src={profilePic}
+                alt='profilepic'
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                className='h-28 w-28'/>
+              </a>
             </motion.div>
 
-            <Skill name="CSS" x="-5vw" y="-10vw"/> 
-            <Skill name="HTML" x="-20vw" y="2vw"/>
-            <Skill name="JavaScript" x="20vw" y="6vw"/>
-            <Skill name="ReactJS" x="0vw" y="12vw"/> 
-            <Skill name="NextJS" x="-20vw" y="15vw"/> 
-            <Skill name="GatsbyJS" x="15vw" y="-12vw"/> 
-            <Skill name="Web Design" x="32vw" y="-5vw"/> 
-            <Skill name="Figma" x="0vw" y="-20vw"/> 
-            <Skill name="Firebase" x="-25vw" y="-15vw"/> 
-            <Skill name="Tailwind CSS" x="18vw" y="18vw"/> 
+            <Skill name="C#" x="7vw" y="-3w"/> 
+            <Skill name="C++" x="-20vw" y="2vw"/>
+            <Skill name="Unity" x="20vw" y="6vw"/>
+            <Skill name="Unreal Engine" x="0vw" y="12vw"/> 
+            <Skill name="Git" x="-20vw" y="15vw"/> 
+            <Skill name="Java" x="15vw" y="-12vw"/> 
+            <Skill name=".Net" x="32vw" y="-5vw"/> 
+            {/* <Skill name="VueJS" x="0vw" y="-20vw"/>
+            <Skill name="Typescript" x="0vw" y="-18vw"/>
+            <Skill name="Javascript" x="0vw" y="-20vw"/>
+            <Skill name=".Net Core" x="-25vw" y="-15vw"/> 
+            <Skill name="NextJS" x="18vw" y="18vw"/>
+            <Skill name="NodeJS" x="18vw" y="16vw"/>
+            <Skill name="Docker" x="18vw" y="14vw"/>
+            <Skill name="Python" x="18vw" y="12vw"/>
+            <Skill name="Terraform" x="18vw" y="10vw"/>
+            <Skill name="Azure" x="18vw" y="8vw"/> */}
 
         </div>
     </>

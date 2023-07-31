@@ -65,20 +65,20 @@ const NavBar = () => {
 
             <div className=" w-full flex justify-between items-center lg:hidden">
                 <nav>
-                    <CustomLink href="/" title="Home" className='mr-4'/>
-                    <CustomLink href="/about" title="About" className='mx-4'/>
-                    <CustomLink href="/projects" title="Projects" className='ml-4' />
+                    <CustomLink href="/" title="Accueil" className='mr-4'/>
+                    <CustomLink href="/about" title="À Propos" className='mx-4'/>
+                    <CustomLink href="/projects" title="Mes Projets" className='ml-4' />
                 </nav>
 
                 <nav className="flex items-center justify-center flex-wrap">
-                    <motion.a href="https://twitter.com" target="_blank"
+                    <motion.a href="https://www.linkedin.com/in/th%C3%A9o-ferreira-bba583151/" target="_blank"
                     whileHover={{y:-2 }}
                     whileTap={{scale:0.9}}
                     className="w-6 mx-3"
                     >
                         <LinkedInIcon />
                     </motion.a>
-                    <motion.a href="/" target="_blank"
+                    <motion.a href="https://github.com/misfitonie" target="_blank"
                     whileHover={{y:-2 }}
                     whileTap={{scale:0.9}}
                     className="w-6 mx-3"
@@ -88,7 +88,7 @@ const NavBar = () => {
                     <motion.a href="/" target="_blank"
                     whileHover={{y:-2 }}
                     whileTap={{scale:0.9}}
-                    className="w-6 ml-3"
+                    className="w-6 ml-3 hidden"
                     >
                         <TwitterIcon />
                     </motion.a>

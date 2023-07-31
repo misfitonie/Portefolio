@@ -6,6 +6,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project2 from "../../public/images/projects/KR.jpg"
+import project3 from "../../public/images/projects/D&R.jpg"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -87,7 +89,7 @@ const projects = () => {
       <TransitionEffect />
       <main className='w-full flex flex-col items-center justify-center dark:text-colors-light'>
         <Layout className='pt-16'>
-          <AnimatedText text="Imagination Trumps Knowledge !" className='text-6xl mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
+          <AnimatedText text="Parce que rien ne vaut la pratique !" className='text-6xl mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
 
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
               <div className='col-span-12'>
@@ -104,20 +106,20 @@ const projects = () => {
               </div>
               <div className='col-span-6 sm:col-span-12'>
                 <Project
-                  title="Crypto Screener Application"
+                  title="Kingdom Rush"
                   link="/"
-                  type="Featured Project"
-                  img={project1}
+                  type="Plateformer 2D"
+                  img={project2}
                   githublink="/"
                   />
               </div>              
               <div className='col-span-6 sm:col-span-12'>
                 <Project
-                  title="Crypto Screener Application"
-                  link="/"
-                  type="Featured Project"
-                  img={project1}
-                  githublink="/"
+                  title="Dice and retry"
+                  link="https://nightfury94962.itch.io/dice-and-retry"
+                  type="RPG | GameJam 48h"
+                  img={project3}
+                  githublink="https://github.com/nightfury94962/Dice-And-Retry"
                   /> 
               </div>
               <div className='col-span-12 sm:col-span-12'>

@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" sizes="any" href="favicon-32x32.png" />
       </Head>
       <NavBar />
       <main className={`${jetmono.variable} font-jetmono bg-colors-light dark:bg-colors-dark w-full min-h-screen`}>

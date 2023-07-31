@@ -12,11 +12,11 @@ const Details = ({type, time, place, info}) => {
         whileInView={{y:0}}
         transition={{duration:0.5, type:"spring"}}
         >
-            <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>{type}</h3>
+            <h3 className=' font-bold text-2xl sm:text-xl xs:text-lg'>{type}</h3>
             <span className='capitalize font-medium text-colors-dark/75 dark:text-colors-light/75 xs:text-sm'>
                 {time} | {place}
             </span>
-            <p className='font-medium w-full md:text-sm'>
+            <p className='pt-2 font-medium w-full md:text-sm'>
                 {info}
             </p>
         </motion.div>
@@ -35,7 +35,7 @@ const Education = () => {
   return (
     <div className='my-64 '>        
         <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-            Education
+            Diplôme
         </h2>
 
         <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
@@ -44,25 +44,23 @@ const Education = () => {
             className='absolute left-9 top-0 w-[4px] h-full bg-colors-dark origin-top dark:bg-colors-light md:w-[4px] md:left-[30px] xs:left-[20px]'/>
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details 
-                    type="Bachelor Of Science In Computer Science" 
-                    time="2016-2020"
-                    place="Massachusetts Institute Of Technology (MIT)"
-                    info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                    Intelligence." 
+                    type="Certification : Microsoft Azure Fundamentals" 
+                    time="2022"
+                    place="Bordeaux"
+                    info="Certification des connaissance de base des Cloud Services et de la manière dont ces services sont fournis avec Microsoft Azure." 
                     />
                     <Details 
-                    type="Bachelor Of Science In Computer Science" 
-                    time="2016-2020"
-                    place="Massachusetts Institute Of Technology (MIT)"
-                    info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                    Intelligence." 
+                    type="BAC +5 : Expert en Développement Logiciel, Mobile & IoT" 
+                    time="2020-2022"
+                    place="Ynov Informatique Bordeaux"
+                    info="Maîtriser le développement logiciel sur tous les terminaux mobiles et pour les objets connectés. Découverte des langages spécifiques et 
+                    les contraintes particulières liées aux smartphones, objets connectés ou différents logiciels." 
                     />
                     <Details 
-                    type="Bachelor Of Science In Computer Science" 
-                    time="2016-2020"
-                    place="Massachusetts Institute Of Technology (MIT)"
-                    info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                    Intelligence." 
+                    type="BAC +3 : Bachelor en Développement Informatique" 
+                    time="2017-2020"
+                    place="Ynov Informatique Bordeaux"
+                    info="Découverte des multiples facettes du monde informatique : Développement logiciel et web, infrastructures réseaux, initiation à la cybersécurité. Maîtrise des environnements informatiques tels que Linux, MacOs et Windows." 
                     />
                 </ul>
         </div>
