@@ -60,7 +60,7 @@ const Education = () => {
                     type="BAC +3 : Bachelor en Développement Informatique" 
                     time="2017-2020"
                     place="Ynov Informatique Bordeaux"
-                    info="Découverte des multiples facettes du monde informatique : Développement logiciel et web, infrastructures réseaux, initiation à la cybersécurité. Maîtrise des environnements informatiques tels que Linux, MacOs et Windows." 
+                    info="Découverte des multiples facettes du monde informatique : développement logiciel et web, infrastructures réseaux, initiation à la cybersécurité. Maîtrise des environnements informatiques tels que Linux, MacOs et Windows." 
                     />
                 </ul>
         </div>

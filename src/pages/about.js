@@ -49,15 +49,14 @@ const About = () => {
                     <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-colors-dark/75 dark:text-colors-light/75'>Présentation</h2>
                         <p className='font-medium'>
-                            Salut 👋!  Je m'appelle Théo, j'ai 24 ans et cela fais maintenant 2 ans que je travaille en tant que développeur logiciel. 
-                            La programmation et celle des jeux en particuler a toujours été une grande passsion.
+                            Salut 👋!  Je m'appelle Théo, j'ai 24 ans et cela fait maintenant 2 ans que je travaille en tant que développeur logiciel. La programmation et celle des jeux en particules a toujours été une grande passion.
                         </p>
                         <p className='my-4 font-medium'>
-                            Je me suis rapidement spécialisé dans le développement de logiciel mais aussi dans le domaine de l'IoT (Internet of Things) afin de pouvoir toucher à un maximum de technologies différentes.
-                            Ma grande curiosité me pousse à constament apprendre, pratiquer et maîtriser.
+                            Je me suis rapidement spécialisée dans le développement de logiciels, mais aussi dans le domaine de l'IoT (Internet of Things) afin de pouvoir toucher à un maximum de technologies différentes. 
+                            Ma grande curiosité me pousse à constamment apprendre, pratiquer et maîtriser.
                         </p>
                         <p className='font-medium'>
-                            Les jeux vidéos ont toujours fait partie de ma vie et c'est très naturellement que j'ai commencé à développer seul mes premiers prototypes, puis à rencontrer des personnes partegeant la même passion.
+                            Les jeux vidéo ont toujours fait partie de ma vie et c'est très naturellement que j'ai commencé à développer seul mes premiers prototypes, puis à rencontrer des personnes partageant la même passion.
                         </p>
                     </div>
                     <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid

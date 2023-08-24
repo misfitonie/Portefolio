@@ -49,7 +49,7 @@ const Experience = () => {
                     compagnyLink="https://www.square-squid.com/"
                     time="Déc 2022 - Janv 2023"
                     address="Valenciennes, Fr"
-                    work="Création de deux prototype de jeu avec Unity.
+                    work="Création de deux prototypes de jeux avec Unity.
                     Un prototype de jeu tile-matching (match3) et un prototype de jeu rogue-like / deck-builder.
                     Création de maquettes ainsi que développement de leurs features de gameplay." 
                     />

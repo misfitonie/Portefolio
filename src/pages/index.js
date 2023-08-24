@@ -28,7 +28,8 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center pl-10 lg:w-full lg:text-center'>
               <AnimatedText text="Théo Ferreira" className='text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-               J'ai toujours été passioné de programmation et de jeu vidéo. Vous pourrez découvrir ici mes derniers prototypes de jeu ainsi que pleins d'informations sur moi, mon parcours et mes compétences !
+
+                J'ai toujours été passionné de programmation et de jeu vidéo. Vous pourrez découvrir ici mes derniers prototypes de jeux ainsi que plein d'informations sur moi, mon parcours et mes compétences !
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link 
