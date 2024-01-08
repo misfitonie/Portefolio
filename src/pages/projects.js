@@ -8,6 +8,7 @@ import React from 'react'
 import project1 from "../../public/images/projects/portefoliopic.png"
 import project2 from "../../public/images/projects/KR.jpg"
 import project3 from "../../public/images/projects/D&R.jpg"
+import glandouilleImg from "../../public/images/projects/glandouille.gif"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -94,14 +95,23 @@ const projects = () => {
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
               <div className='col-span-12'>
                 <FeaturedProject
-                title="Portefolio"
-                summary="Vous pouvez retrouver l'intégralité du code de mon portefolio sur mon Github, vous y trouverez également la plupart de mes autres projets."
-                link="https://github.com/misfitonie/Portefolio"
-                type="Featured Project"
-                img={project1}
+                title="Glandouille"
+                summary="Platformer 2D réalisé en 24h avec mon ami graphiste Zéphyr, le thème de cette édition était 'Better Together'"
+                link="https://poinepasson.itch.io/glandouille"
+                type="Cozy Winter Game Jam 2023"
+                img={glandouilleImg}
                 githublink="https://github.com/misfitonie/Portefolio"
                 />
               </div>
+              <div className='col-span-6 sm:col-span-12'>
+                <Project
+                  title="Portefolio Next JS"
+                  link="https://github.com/misfitonie/Portefolio"
+                  type="Portefolio"
+                  img={project1}
+                  githublink="https://github.com/misfitonie/Portefolio"
+                  />
+              </div>  
               <div className='col-span-6 sm:col-span-12'>
                 <Project
                   title="Kingdom Rush"
